@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Turret+Road:wght@200;400;700;800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f1f3f6;
+    padding-bottom: 70px;
+}
+
+.top-bar {
+    background-color: #ffffff;
+    padding: 0.25rem;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bottom-nav {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+    border-top: 1px solid #ddd;
+    display: flex;
+    justify-content: space-around;
+    padding: 0.5rem 0;
+    z-index: 1000;
+}
+
+.user-box {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 1rem;
+    margin-top: 1rem;
+}
+
+.gasto-lista {
+    max-height: 200px;
+    overflow-y: auto;
+}
+
+.gasto-item {
+    border-bottom: 1px solid #eee;
+    padding: 0.5rem 0;
+}
+
+canvas {
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 10px;
+    margin-top: 1rem;
+}
+
+.custom-offcanvas {
+    background-color: #f9f9f9;
+}
+
+.menu-link {
+    color: #333;
+    padding: 0.5rem;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.menu-link:hover {
+    background-color: #dddddd;
+    text-decoration: none;
+}
+
+.menu-toggle-btn {
+    background-color: #ffffff;
+    border: none;
+    padding: 8px;
+    border-radius: 25%;
+    transition: background-color 0.3s;
+    width: 52px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-toggle-btn i {
+    font-size: 1.5rem;
+    color: #5c5c5c;
+}
+
+.menu-toggle-btn:hover {
+    background-color: #dddddd;
+    cursor: pointer;
+}
+
+.top-title {
+    font-family: 'Turret Road', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: #000000;
+}
+
+.custom-btn-ganho {
+    background-color: #d1f7d6;
+    color: #1e7e34;
+    font-weight: 600;
+    border: 1px solid #7ece8e;
+    transition: all 0.2s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.custom-btn-ganho:hover {
+    background-color: #baf0c2;
+}
+
+.custom-btn-gasto {
+    background-color: #f3d3d5;
+    color: #882129;
+    font-weight: 600;
+    border: 1px solid #f3bfc4;
+    transition: all 0.2s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.custom-btn-gasto:hover {
+    background-color: #f5b9bf;
+}
+
+.nav-icon {
+    background-color: #f8f8f8;
+    border: none;
+    border-radius: 25%;
+    transition: background-color 0.3s, transform 0.2s;
+    width: 64px;
+    height: 42px;
+    color: #5c5c5c;
+    cursor: pointer;
+    text-align: center;
+    font-size: 0.8rem;
+}
+
+.nav-icon:hover {
+    background-color: #dddddd;
+}
+
+.user-box,
+canvas {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
